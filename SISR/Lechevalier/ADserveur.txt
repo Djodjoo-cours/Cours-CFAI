@@ -1,0 +1,35 @@
+WINDOWS SERVEUR 2019
+
+Changer IP et NOM
+Masque: 255.255.240.0
+Passerelle: 172.16.0.1
+
+Gestionnaire serveur -> ajouter rôle et fonctionnalités -> Rôle = ADDS
+
+Drapeau -> promouvoir -> ajouter nouvelle fôret
+
+Machine cliente:
+
+Changer IP et NOM
+DNS = IP Windows Serveur
+
+
+2 Façons de passer un User admin de son poste:
+
+1 - Se connecter avec l'admin local .\#nomAdminLocal sur le powershell admin -> msconfig dans windows+r -> chercher la commande du service -> puis la lancer dans le PowerShell
+
+Mettre le User qu'on veut dans le groupe Administrateur
+
+
+2 - Dans le serveur AD mettre le User dans le gré Admin du domaine (mais pas top)
+
+
+GPO:
+
+PowerShell (Admin) -> gpresult /r
+
+Serveur AD -> Outils -> Gestion de stratégie de groupe (pour ajouter...) dans objet de stratégie de groupe
+
+Exemple bloquer panneau de config windows: créer dans objet de stratégie... puis faire glisser dans comptabilité -> clique droit dessus -> modifier -> user -> stratégie... -> Modèle Admin... -> Panneau de config -> double clique, puis encore double clique sur Interdire l'accès -> coché activé puis appliquer
+
+Puis sur les poste serveurs puis client faire gpupdate /force dans cmd
