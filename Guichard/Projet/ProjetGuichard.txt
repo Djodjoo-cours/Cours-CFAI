@@ -1,0 +1,23 @@
+GESTIONNAIRE DE MDP
+(Peut-être sur une VM)
+
+Se connecter / créer compte
+Créer des identifiants
+Rechercher nos identifiants
+Pouvoir générer mdp
+Bloc de texte (Commentaires) sur les identifiants
+Grp / Domaine de MDP
+Pouvoir peut-être exporter nos mdp en format txt
+
+
+HTML / PHP / JS je pense ?
+
+
+
+
+
+Login VM -> jordangestionmdp
+Mdp -> toto
+Mdp PHPMyAdmin -> toto
+
+Déjà install php, PHPMyAdmin, mysql-server, apache, ssh

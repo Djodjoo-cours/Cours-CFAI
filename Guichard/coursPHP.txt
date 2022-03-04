@@ -1,0 +1,31 @@
+Déclarer variable -> $NomVar = ...;
+
+Pour déclarer un tab -> comme en python tt simple ou avec array(); pour un tab vide
+
+Afficher tableau sans faire de boucle -> print_r ($tab);
+
+Boucle foreach pour afficher valeur tab -> foreach($tab as $NomVar) { print($NomVar . "\n");
+si on met '$indice => ' avant $Nom on récupérera l'indice aussi
+
+Pour concaténer c'est pas + mais .
+
+isset() -> tester si une variable est déclarée
+
+and -> pour le "et"
+ || ou 'or' -> pour le "ou"
+
+Sur un form html mettre method=POST -> $var = $_POST('NomLigneForm'); pour récup la valeur
+
+DO {
+	#instruction
+} While
+-> Pour faire quelque chose tant que la condition n'est pas rempli
+
+rand($min, $max); -> renvoie un int entre nos 2 bornes
+
+count($tab) -> pour la longueur
+
+empty() -> pour savoir si var est vide
+
+array_push($tab, $Var) -> append en python
+
