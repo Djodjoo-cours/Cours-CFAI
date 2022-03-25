@@ -2,11 +2,21 @@ GESTIONNAIRE DE MDP
 (Peut-être sur une VM)
 
 Se connecter / créer compte
+
 Créer des identifiants
+
+Désactiver compte au bout d'une certaine inactivité puis suppression si tjs inactif après un délai
+
+Pouvoir changer de thème (clair ou sombre)
+
 Rechercher nos identifiants
+
 Pouvoir générer mdp
+
 Bloc de texte (Commentaires) sur les identifiants
+
 Grp / Domaine de MDP
+
 Pouvoir peut-être exporter nos mdp en format txt
 
 
